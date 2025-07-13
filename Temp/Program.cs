@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Temp;
+
 Console.WriteLine("Hello, World!");
 
 static void x()
@@ -23,3 +25,8 @@ static int div(int number1, int number2)
     var result = number1 / number2;
     return result;
 }
+
+var loan = new Loan();
+loan.SayHello();
+
+Console.ReadLine();
