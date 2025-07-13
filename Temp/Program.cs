@@ -5,3 +5,8 @@ static void x()
 {
     Console.WriteLine("Hello");
 }
+
+static void y()
+{
+    Console.WriteLine("Bye");
+}
